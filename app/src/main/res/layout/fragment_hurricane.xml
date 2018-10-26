@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FloodFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="24dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hurricanes - What to Do?"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Hurricanes: "/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- Are bigger and cause more widespread damage than tornadoes (a very large system can be up to 1,000 kilometers wide).
+\n- Wield very strong winds – of at least 120 kilometers per hour – around the “eye” accompanied by torrential rains.
+\n- Can bring heavy rain and cause significant flooding.
+\n- Can often be tracked several days in advance of landfall.
+\n- Usually move slowly and can batter communities for several hours."/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="What to do:"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv3"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- During hurricane season, pay attention to weather forecasts and warnings.
+\n- If you live on the coast or in a low-lying area near the coast, move inland and to higher ground. The high winds create huge waves at sea which can be very damaging when combined with a storm surge (see Storm Surges section).
+\n- Do not go down to the water to watch the storm. Most fatalities during hurricanes occur as a result of being caught in large waves, storm surges or flood waters.
+\n- If the eye of the hurricane passes over, there will be a lull in the wind lasting from several minutes to half an hour. Stay in a safe place. Make emergency repairs only and remember that once the eye has passed, the winds will return from the opposite direction with possibly even greater force.
+\n- Listen for reports from authorities on your crank or battery powered radio.
+\n- On a farm, it may be better to leave livestock unsheltered. During past hurricanes some animals left outside suffered less injury than those in shelters, which were injured by collapsing structures and flying objects that may have been avoided outside.
+"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

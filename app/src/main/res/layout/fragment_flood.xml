@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FloodFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="24dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Floods - What to Do?"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="If you need to evacuate: "/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- Vacate your home when you are advised to do so by local emergency authorities. Ignoring such a warning could jeopardize the safety of your family or those who might eventually have to come to your rescue.
+\n- Take your emergency kit with you.
+\n- Follow the routes specified by officials. Don't take shortcuts. They could lead you to a blocked or dangerous area.
+\n- Make arrangements for pets.
+\n- Time permitting, leave a note informing others when you left and where you went. If you have a mailbox, leave the note there."/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="Never cross a flooded area:"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv3"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- If you are on foot, fast water could sweep you away.
+\n- If you are in a car, do not drive through flood waters or underpasses. The water may be deeper than it looks and your car could get stuck or swept away by fast water.
+\n- Avoid crossing bridges if the water is high and flowing quickly.
+\n- If you are caught in fast-rising waters and your car stalls, leave it and save yourself and your passengers.
+"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/icon_map"
+            android:iconTint="@android:color/black"
+            android:title="Map" />
+        <item
+            android:id="@+id/request_help"
+            android:icon="@drawable/icon_help"
+            android:iconTint="@android:color/black"
+            android:title="Request Help" />
+
+    </group>
+
+    <item android:title="Emergency Guides">
+        <menu>
+            <item
+                android:id="@+id/earthquake"
+                android:icon="@drawable/icon_guide"
+                android:iconTint="@android:color/black"
+                android:title="Earthquakes" />
+            <item
+                android:id="@+id/flood"
+                android:icon="@drawable/icon_guide"
+                android:iconTint="@android:color/black"
+                android:title="Floods" />
+            <item
+                android:id="@+id/hurricane"
+                android:icon="@drawable/icon_guide"
+                android:iconTint="@android:color/black"
+                android:title="Hurricanes" />
+
+        </menu>
+    </item>
+
+</menu>

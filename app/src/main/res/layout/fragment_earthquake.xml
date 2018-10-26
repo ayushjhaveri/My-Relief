@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EarthquakeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="24dp">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Earthquakes - What to Do?"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:padding="12dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_below="@id/tv_title"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="If you are Indoors: "/>
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_below="@id/tv1"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- Stay inside.
+\n- Drop under heavy furniture such as a table, desk, bed or any solid furniture.
+\n- Cover your head and torso to prevent being hit by falling objects.
+\n- Hold on to the object that you are under so that you remain covered. Be prepared to move with the object until the shaking has finished.
+\n- If you can't get under something strong, or if you are in a hallway, flatten yourself or crouch against an interior wall and protect your head and neck with your arms.
+\n- If you are in a shopping mall, go into the nearest store. Stay away from windows, and shelves with heavy objects.
+\n- If you are at school, get under a desk or table and hold on. Face away from windows.
+\n- If you are in a wheelchair, lock the wheels and protect the back of your head and neck."/>
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_below="@id/tv2"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="If you are Outdoors:"/>
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_below="@id/tv3"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- Stay outside.
+\n- Go to an open area away from buildings. The most dangerous place is near exterior walls.
+\n- If you are in a crowded public place, take cover where you won't be trampled."/>
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_below="@id/tv4"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="If you are in a vehicle:"/>
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_below="@id/tv5"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- Pull over to a safe place where you are not blocking the road. Keep roads clear for rescue and emergency vehicles.
+\n- Avoid bridges, overpasses, underpasses, buildings or anything that could collapse.
+\n- Stop the car and stay inside.
+\n- Listen to your car radio for instructions from emergency officials.
+\n- Do not attempt to get out of your car if downed power lines are across it. Wait to be rescued.
+\n- Place a HELP sign in your window if you need assistance.
+\n- If you are on a bus, stay in your seat until the bus stops. Take cover in a protected place. If you can't take cover, sit in a crouched position and protect your head from falling debris."/>
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_below="@id/tv6"
+        android:layout_width="match_parent"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:textStyle="bold"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="AVOID the following in an earthquake:"/>
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_below="@id/tv7"
+        android:layout_width="match_parent"
+        android:paddingEnd="24dp"
+        android:paddingStart="24dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:textStyle="normal"
+        android:textColor="#555555"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:text="- Doorways. Doors may slam shut and cause injuries.
+\n- Windows, bookcases, tall furniture and light fixtures. You could be hurt by shattered glass or heavy objects.
+\n- Elevators. If you are in an elevator during an earthquake, hit the button for every floor and get out as soon as you can.
+\n- Downed power lines – stay at least 10 metres away to avoid injury.
+\n- Coastline. Earthquakes can trigger large ocean waves called tsunamis. If you are near a coastline in a high risk area during a strong earthquake, immediately move inland or to higher ground and remain there until officials declare the area safe."/>
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>
